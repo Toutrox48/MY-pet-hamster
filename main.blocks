@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="%W-iF4d^qMWl`LNy20T/" x="85" y="-203"><statement name="HANDLER"><block type="basic_show_icon" id="ML|Yf(,`G+`WTsQs+Ky%"><field name="i">IconNames.Asleep</field></block></statement></block><block type="input_logo_event" id="bOivtjpdNme/*/uEZlFM" x="344" y="-184"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="cFCe?hLcF*IC|bm=1/|q"><field name="i">IconNames.Happy</field><next><block type="SoundExpression_playUntilDone" id="a*0s)ER#T3ySYC,mic5!"><field name="this">soundExpression.giggle</field><next><block type="basic_show_icon" id="75Sm)WVb^s7s3sg|m=yP"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block><block type="device_gesture_event" id="GXLeRU1}+3I/5f`BnVG?" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="D#bCovsu.jykwBh)@QWY"><field name="i">IconNames.Sad</field><next><block type="SoundExpression_playUntilDone" id="N?l|pm$;w}]YIlyi+LFn"><field name="this">soundExpression.sad</field><next><block type="basic_show_icon" id="+Y5R{ps6NM#}UGmLY+ng"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block><block type="device_button_event" id="3azj:SH*^w[N`QkeT#$H" x="7" y="334"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_start_melody" id="~@Ydf6+cwl40)Sn2R^L,"><field name="options">MelodyOptions.OnceInBackground</field><value name="melody"><block type="device_builtin_melody" id="le9jU-IU:OH[W4L),O9W"><field name="melody">Melodies.JumpDown</field></block></value><next><block type="controls_repeat_ext" id="d*N,ye,E*1g=wl}_IVTA"><value name="TIMES"><shadow type="math_whole_number" id="J^Ln?kv8Am48#r9/Y77("><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_show_leds" id="A5e63XsU+bZwXLg/[)$H"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="S:II@8V#:Ipo/fXCWxl{"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></statement><next><block type="basic_show_icon" id="o=HCB?}xWfo/%DDwU#}P"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block><block type="device_button_event" id="HvKpm},Sf2:BKP~/~.iM" x="398" y="469"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="soundExpression_playSoundEffect" id="W:oAw#zOxD$;`p*W*y`k"><field name="mode">SoundExpressionPlayMode.InBackground</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="[BY(3DGgW4c~2*|cH(:X"><field name="soundExpression">soundExpression.twinkle</field></shadow></value><next><block type="controls_repeat_ext" id="9QaeckZS~^~d!ur`|+Gm"><value name="TIMES"><shadow type="math_whole_number" id="9q.J(53Qb*8twjx-Wlu."><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="le(eU3BQyZWG-OP~h#Gf"><field name="LEDS">`
+        . . # # . 
+        . . . . # 
+        . . . . # 
+        # # # # # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="elQG2HIiDo}(3UNU*U9a"><field name="LEDS">`
+        . . # # . 
+        . . # . # 
+        . . . . # 
+        # # # # # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="Xd!U@5!{{S@kcAFuN7b]"><field name="LEDS">`
+        . . # # . 
+        . . . . # 
+        . . # . # 
+        # # # # # 
+        . # # # .
+        `</field></block></next></block></next></block></statement><next><block type="basic_show_icon" id=")|wCANry1)9!?szkJof~"><field name="i">IconNames.Happy</field><next><block type="SoundExpression_playUntilDone" id="]Dj^0WGL50?WM5Z^X/m8"><field name="this">soundExpression.giggle</field><next><block type="basic_show_icon" id=")w0#QJ%2NR`Tl-lXfP5)"><field name="i">IconNames.Asleep</field></block></next></block></next></block></next></block></next></block></statement></block></xml>
